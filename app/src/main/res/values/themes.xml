@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Theme.AgeCalci" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Optional: Customize colors -->
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF9800</item>
+    </style>
+
+</resources>

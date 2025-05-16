@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="#673AB7"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/projectInfoTextView"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="MAD mini project\nSection 'A'\nAdithya RV:22BTAI101\nMuktha R:22BTAI102\nPrerana Yadav:22BTAI105"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Calculate Age"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/yearEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:hint="Example:2002"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="CALCULATE"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Your age is 0 years"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

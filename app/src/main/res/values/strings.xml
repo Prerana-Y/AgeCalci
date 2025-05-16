@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgeCalci</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="calculate_age">Calculate Age</string>
+    <string name="enter_birth_year">2021</string>
+    <string name="age_result">Your age is 0 years</string>
+</resources>
