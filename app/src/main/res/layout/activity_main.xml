@@ -15,7 +15,8 @@
         android:layout_width="376dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="MAD mini project\nSection 'A'\nAdithya RV:22BTAI101\nMuktha R:22BTAI102\nPrerana Yadav:22BTAI105"
+        android:gravity="end"
+        android:text="22BTAI101\n22BTAI102\n22BTAI105"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold" />
